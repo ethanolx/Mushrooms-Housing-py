@@ -4,12 +4,12 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-numpy = "*"
-matplotlib = "*"
-pandas = ">=1.1"
-sklearn = "*"
-ipykernel = "*"
-seaborn = "*"
+scikit-learn = "==0.24.2"
+matplotlib = "==3.4.2"
+numpy = "==1.20.3"
+pandas = "==1.2.4"
+seaborn = "==0.11.1"
+ipykernel = "==5.5.5"
 
 [dev-packages]
 autopep8 = "*"
