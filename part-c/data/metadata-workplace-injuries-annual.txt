@@ -1,0 +1,189 @@
+# Metadata for Workplace Injuries, Annual
+---
+Identifier: '54a2cbdb-a9b5-46cc-a2de-16ade7212050'
+Name: 'workplace-injuries-annual'
+Title: 'Workplace Injuries, Annual'
+Description: 'Data on workplace safety and health are compiled based on incident reports
+  made by employers, occupiers and medical practitioners in the fulfilment of their
+  obligations under the Workplace Safety and Health (Incident Reporting) Regulations.'
+Topics:
+  - 'Economy'
+Keywords:
+  - 'incident type'
+  - 'industry'
+  - 'industry agent'
+  - 'rate'
+  - 'workplace fatal injury'
+  - 'workplace injury'
+  - 'workplace major injury'
+  - 'workplace minor injury'
+Publisher:
+  Name: 'Ministry of Manpower'
+  Admin 1:
+    Name: 'Siti Zubaidah Juraimi'
+    Department: 'Ministry of Manpower'
+    Email: 'siti_zubaidah_juraimi@mom.gov.sg'
+  Admin 2:
+    Name: 'Cindy Tan'
+    Department: 'Ministry of Manpower'
+    Email: 'cindy_tan@mom.gov.sg'
+Sources:
+  - 'Ministry of Manpower'
+Source Url: 'http://www.mom.gov.sg/workplace-safety-and-health/wsh-reports-and-statistics'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2006-01-01 to 2018-12-31'
+Last Updated: '2019-05-14T10:00:23.225970'
+Resources:
+  -
+    Identifier: 'ef367274-b44d-4f8a-9f46-d17ec95d7c67'
+    Title: 'Workplace Injuries'
+    Url: 'https://storage.data.gov.sg/workplace-injuries-annual/resources/workplace-injuries-2019-05-14T09-53-56Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2018-12-31'
+    Description:
+      - '1) Figures are victim-based.'
+      - '2) 2013 onwards data are not strictly comparable with previous years as data
+        exclude work-related back injuries due to ergonomic risks and include work-related
+        traffic injuries.'
+    Last Updated: '2019-05-14T09:53:56.669008'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'no._of_workplace_injuries'
+        Title: 'No. of Workplace Injuries'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Workplace Injuries'
+      -
+        Name: 'workplace_injury_rate'
+        Title: 'Workplace Injury Rate'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Per 100,000 Employed Persons'
+      -
+        Name: '3-year_rolling_ave_rate'
+        Title: '3-Year Rolling Average Rate'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Per 100,000 Employed Persons'
+        Description: '"na" : Data not available or not applicable'
+  -
+    Identifier: '59c87f0b-94b8-4a8b-af44-8ff38843431b'
+    Title: 'Workplace Injuries by Degree of Injury'
+    Url: 'https://storage.data.gov.sg/workplace-injuries-annual/resources/workplace-injuries-by-degree-of-injury-2019-05-14T09-56-43Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2018-12-31'
+    Description:
+      - '1) Figures are victim-based.'
+      - ''
+      - '2) 2013 onwards data are not strictly comparable with previous years as data
+        exclude work-related back injuries due to ergonomic risks and include work-related
+        traffic injuries.'
+      - ''
+      - 'The degree of injury of a workplace injury is defined as:'
+      - ''
+      - '*	Fatal if it results in death;'
+      - ''
+      - '*	Major if it is an injury, other than fatal injuries, which are more severe
+        in nature based on the nature of injury, part of the body injured, incident
+        type and duration of medical leave. These injuries include: amputation, blindness,
+        deafness, paralysis, crushing, fractures and dislocations, exposure to electric
+        current, asphyxia/ drowning, hypothermia, burns and concussion with more than
+        20 days of medical leave; and'
+      - ''
+      - '*	Minor if it is an injury, other than fatal injuries and major injuries,
+        which results in more than three days of medical leave, or at least 24 hours
+        of hospitalisation.'
+    Last Updated: '2019-05-14T09:56:43.817944'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'degree_of_injury'
+        Title: 'Degree of Injury'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no._of_workplace_injuries'
+        Title: 'No. of Workplace Injuries'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Workplace Injuries'
+      -
+        Name: 'workplace_injury_rate'
+        Title: 'Workplace Injury Rate'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Per 100,000 Employed Persons'
+      -
+        Name: '3-year_rolling_ave_rate'
+        Title: '3-Year Rolling Average Rate'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Per 100,000 Employed Persons'
+        Description: '"na" : Data not available or not applicable'
+  -
+    Identifier: '109b3957-8826-4d92-b47e-01f58ec22cf3'
+    Title: 'Workplace Injuries by Industry and Incident Types'
+    Url: 'https://storage.data.gov.sg/workplace-injuries-annual/resources/workplace-injuries-by-industry-and-incident-types-2019-05-14T10-00-22Z.csv'
+    Format: 'CSV'
+    Coverage: '2011-01-01 to 2018-12-31'
+    Description:
+      - '1) Figures are victim-based.'
+      - '2) 2013 onwards data are not strictly comparable with previous years as data
+        exclude work-related back injuries due to ergonomic risks and include work-related
+        traffic injuries.'
+    Last Updated: '2019-05-14T10:00:22.126256'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'degree_of_injury'
+        Title: 'Degree of Injury'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'industry'
+        Title: 'Industry'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'sub_industry'
+        Title: 'Sub Industry'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'incident_type'
+        Title: 'Incident Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'incident_agent'
+        Title: 'Incident Agent'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'incident_agent_sub_type'
+        Title: 'Incident Agent Sub Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no._of_injuries'
+        Title: 'No. of Injuries'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Injuries'
