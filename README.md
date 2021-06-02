@@ -31,32 +31,32 @@ To produce the output,
 ## File Structure
 
 ```
-mushrooms ---- .venv (empty)
-           |
-           |-- data ---- agaricus-lepiota.data
-           |         |-- agaricus-lepiota.names
-           |         `-- kc_house_data.csv
-           |
-           |-- doc ---- CA1_Brief.pdf
-           |
-           |-- img (images)
-           |
-           |-- models ---- best_clf_algo.p
-           |           |-- best_clf_params.p
-           |           |-- best_reg_algo.p
-           |           |-- best_reg_params.p
-           |           |-- best_reg_trans.p
-           |           |-- best_reg_y_trans.p
-           |           |-- final_classifier.p
-           |           `-- final_regressor.p
-           |
-           |-- utils ---- extraction.py
-           |          `-- plotting.py
-           |
-           |-- ai.ipynb
-           |-- Pipfile
-           |-- Pipfile.lock
-           `-- README.md
+CA1 ---- .venv (empty)
+     |
+     |-- data ---- agaricus-lepiota.data
+     |         |-- agaricus-lepiota.names
+     |         `-- kc_house_data.csv
+     |
+     |-- doc ---- CA1_Brief.pdf
+     |
+     |-- img (images)
+     |
+     |-- models ---- best_clf_algo.p
+     |           |-- best_clf_params.p
+     |           |-- best_reg_algo.p
+     |           |-- best_reg_params.p
+     |           |-- best_reg_trans.p
+     |           |-- best_reg_y_trans.p
+     |           |-- final_classifier.p
+     |           `-- final_regressor.p
+     |
+     |-- utils ---- extraction.py
+     |          `-- plotting.py
+     |
+     |-- ai.ipynb
+     |-- Pipfile
+     |-- Pipfile.lock
+     `-- README.md
 ```
 
 # See Also
