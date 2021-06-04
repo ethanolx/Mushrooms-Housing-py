@@ -63,5 +63,7 @@ CA1 ---- .venv (empty)
 # See Also
 
 Part A Slides:  `doc/classification-highlights.pptx`
+
 Part B Slides:  `doc/regression-highlights.pptx`
+
 Part C Paper:   `doc/technical-paper.docx`
